@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: #020617;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+h2 {
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 5px;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    flex: 1;
+    min-width: 250px;
+}
+
+.job, .project {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
